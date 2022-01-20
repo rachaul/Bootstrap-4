@@ -1,0 +1,51 @@
+.btn-success {
+    background: greenyellow;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background: skyblue;
+    border: 0;
+}
+
+.btn-primary {
+    background: none;
+    border: 1px solid #bcd0e5;
+    padding: 15px 40px 15px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #173a56;
+}
+
+.btn-primary:hover {
+    background: none;
+    border: 1px solid rgb(159, 177, 197);
+    color: #173a56;
+}
+
+.hero h2 {
+    font-family: 'Brygada 1918', serif;
+    font-weight: 1000;
+    color: #2f281e;
+}
+
+.hero p {
+    font-family: 'Brygada 1918', serif;
+    font-weight: 700;
+    color: #2f281e;
+}
+
+.navbar-nav .nav-link {
+    color: #2f281e;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-success,
+    .btn-primary {
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+}
